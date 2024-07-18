@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Morfin'; 
+    src: url('../../assets/MorfinSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.homepage {
+    /* padding: 20px 0 0; */
+    background-image: url("../../assets/background.jpg");
+    background-size: cover;
+    height: calc(100vh - 80px); /* 80px - высота Header */
+    font-family: 'Morfin';
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero {
+    margin-top: 100px;  
+    margin-bottom: 50px;  
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Arkana'; 
+    src: url('../../assets/ArkanaScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hero__title {
+    font-size: 70px;
+    margin: auto;
+    font-family: 'Arkana';
+    letter-spacing: 3px;
+    text-shadow: 0 0 5px #767676;
+}
+
+.hero__description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero__button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.semi-transparent-block {
+    /* background-color: rgba(255, 255, 255, 0.3);  */
+    padding: 20px;
+    width: 50%;
+    /* border-radius: 5px; */
+    color: #3f3f3f;
+    /* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); */
+    margin-left: 0;
+    margin-right: auto;
+  }
+  
+.text-content {
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.why-us {
+  text-align: right;
+}
+
+.hero__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    gap: 100px;             
+}
+
+.homepage__nav {
+    background-color: transparent;
+    margin: 0;
+    width: auto;
+}
+
+.homepage__nav__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px; /* Увеличиваем расстояние между страницами */ 
+}
+
+.homepage__nav__link {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #ffffff;          
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 20px;
+    letter-spacing: 2px;         
+  }
+  
+  /* Дополнительные стили (по желанию) */
+  .homepage__nav__link:hover {
+    color: #007bff;   /* Изменяем цвет при наведении (синий) */
+  }
+
+  .slash {
+    margin: 0 5px; 
+  }
+  
+  
